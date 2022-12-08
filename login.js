@@ -18,7 +18,7 @@ btnLogin.addEventListener("click", (e) => {
   }
   if(localStorage.getItem(username.value)==json){
     alert("dang nhap thanh cong");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   }else{
     alert("dang nhap that bai");
   }
