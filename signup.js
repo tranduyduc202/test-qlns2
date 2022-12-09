@@ -16,5 +16,6 @@ btnSignup.addEventListener('click',function(e){
        }else{
         localStorage.setItem(username.value,json)
         alert("dang ky thanh cong")
+        
        }
 })
